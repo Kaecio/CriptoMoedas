@@ -1,0 +1,45 @@
+.main{
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 200px;
+  width:100%;
+}
+
+.left{
+  width:auto;
+  background-color:#332753;
+  display: flex;
+  justify-content: flex-end;
+  padding:0 6px;
+}
+
+.rigth{
+width:100%;
+background-color:#c9c3da;
+}
+
+h1{
+  text-align: center;
+  font-weight: 700;
+}
+.bitcoin-box{
+  height: 50px;
+  width: 320px;
+  padding: 10px;
+  border-bottom: 1px solid #999797;
+  background-color: #fff;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  background-color:#332753;
+}
+
+.bitcoin-box > span{
+
+  color: #ffffff;
+  font-weight: bold;
+  font-size:1.4em;
+  padding: 0 4px;
+}
